@@ -84,7 +84,7 @@ export default function Reconfirm() {
       )}
 
       <form onSubmit={handleSubmit}>
-        <h2 className="my-2">Login Form</h2>
+        <h2 className="my-2">Re-confirm: </h2>
 
         <label htmlFor="email">Email:</label>
         <input
