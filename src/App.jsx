@@ -1,6 +1,6 @@
 import { useEffect, useState } from "react";
 import "./App.css";
-import { createBrowserRouter, RouterProvider } from "react-router-dom";
+import { createBrowserRouter, createHashRouter, RouterProvider } from "react-router-dom";
 import Layout from "./components/Layout/Layout.jsx";
 import Map from "./components/Map/Map.jsx";
 import Signup from "./components/Signup/Signup.jsx";
@@ -31,7 +31,7 @@ function App() {
       
     }
 
-  let routers = createBrowserRouter([
+  let routers = createHashRouter([
     {
       path: "/",
       element: <Layout userData={userData} setuserData={setuserData} />,
