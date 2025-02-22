@@ -1,0 +1,26 @@
+
+.aroundBorder {
+    border: 3px solid #007bff; 
+    border-radius: 12px; 
+    padding: 8px; 
+    box-shadow: 0px 4px 12px rgba(0, 0, 0, 0.3);
+    transition: all 0.3s ease-in-out; 
+
+
+
+  }
+
+  
+  
+  .aroundBorder:hover {
+    border-color: #0056b3;
+    box-shadow: 0px 6px 15px rgba(0, 0, 0, 0.4); 
+  }
+  
+  @media (prefers-color-scheme: dark) {
+    .aroundBorder {
+      border: 3px solid #ffffff;
+      box-shadow: 0px 4px 12px rgba(255, 255, 255, 0.3);
+    }
+  }
+  

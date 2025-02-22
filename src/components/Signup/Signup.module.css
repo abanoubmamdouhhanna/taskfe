@@ -1,0 +1,12 @@
+.my_input
+{
+ background-color: transparent;
+ border: solid 1px #a8a8a83d;  
+ color: #fff; 
+}
+.errordiv
+{
+    max-height: 50px;
+    opacity: 40%;
+    color: red;
+}
